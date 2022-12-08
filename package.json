@@ -1,0 +1,19 @@
+{
+  "name": "tdd-practice",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "capitalize.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wukongO-O/tdd-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wukongO-O/tdd-practice/issues"
+  },
+  "homepage": "https://github.com/wukongO-O/tdd-practice#readme"
+}
