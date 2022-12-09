@@ -1,9 +1,9 @@
 function capitalize(str) {
-    const letter1 = str.charAt(0);
     const regex = /[a-zA-Z]/;
 
-    if (regex.test(letter1)) {
-        return str.replace(letter1, letter1.toUpperCase());
+    if (str.search(regex) != -1) {
+        const toReplace = str.charAt(str.search(regex));
+        return str.replace(toReplace, toReplace.toUpperCase());
     } else {
         return str;
     }

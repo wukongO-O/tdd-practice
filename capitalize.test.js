@@ -9,7 +9,10 @@ test('1st letter of a sentence is capitalized', () =>{
     expect(capitalize('i love ramen noodle')).toBe('I love ramen noodle');
 });
 
-test('non-alphabetic first character returns the original string', () => {
-    expect(capitalize('99 bottles of beer on the wall')).toBe('99 bottles of beer on the wall');
+test('non-alphabetic phrase returns the original string', () => {
+    expect(capitalize('123!@#')).toBe('123!@#');
 });
 
+test('1st letter not at index0 is capitalized', () => {
+    expect(capitalize('99 bottles of beer on the wall')).toBe('99 Bottles of beer on the wall');
+})
