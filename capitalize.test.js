@@ -6,7 +6,7 @@ test('1st letter of a word is capitalized', () => {
 });
 
 test('1st letter of a sentence is capitalized', () =>{
-    expect(capitalize('i love ramen noodle')).toBe('I love ramen noodle');
+    expect(capitalize('i love ramen')).toBe('I love ramen');
 });
 
 test('non-alphabetic phrase returns the original string', () => {
