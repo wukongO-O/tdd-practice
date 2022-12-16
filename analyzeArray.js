@@ -13,23 +13,15 @@ function analyzeArray(arr) {
     
         arr.sort((a, b) => a - b);
     
-        const minVal = () => {
-            return arr[0];
-        };
-    
-        const maxVal = () => {
-            return arr[arr.length-1];
-        };
-    
-        const arrLen = () => {
-            return arr.length; 
-        };
+        const minVal =  arr[0];
+        const maxVal =  arr[arr.length-1];
+        const arrLen =  arr.length; 
     
         const obj = {
             average: avgVal(),
-            min: minVal(),
-            max: maxVal(),
-            length: arrLen()
+            min: minVal,
+            max: maxVal,
+            length: arrLen
         };
     
         return obj;
